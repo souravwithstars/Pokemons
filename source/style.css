@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.card-wrapper {
+    margin-left: 20%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.card {
+    width: 19%;
+    height: 24em;
+    border: 0.07em solid darkgray;
+    border-radius: 0.3em;
+    background-color: rgb(244 244 244);
+    padding: 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-icon {
+    height: 55%;
+    background-color: rgb(230 230 230);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title > h2 {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.25em;
+}
+
+.category {
+    display: flex;
+    column-gap: 0.3em;
+    align-items: center;
+}
+
+.category div {
+    font-size: 0.9em;
+    border-radius: 0.12em;
+    padding: 0.12em;
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display: block;
+}
+
+.selected a{
+    color: white;
+}
+
+.grass {
+    background-color: mediumseagreen;
+}
+
+.poison {
+    background-color: mediumpurple;
+}
+.fire {
+    background-color: goldenrod;
+  }
+  
+  .flying {
+    background-color: steelblue;
+  }
+  
+  .water {
+    background-color: dodgerblue;
+  }
+  
+  .bug {
+    background-color: brown;
+  }
+  
+  .normal {
+    background-color: gray;
+  }
+  
+  .ground {
+    background-color: peru;
+  }
+  
+  .fairy {
+    background-color: hotpink;
+  }
+  
+  .fighting {
+    background-color: crimson;
+  }
+  
+  .electric {
+    background-color: hsl(51deg 73% 50%);
+  }
+  
+  .psychic {
+    background-color: orange;
+  }
+  
+  .rock {
+    background-color: dimgray;
+  }
+  
+  .ice {
+    background-color: darkcyan;
+  }
+  
+  .dragon {
+    background-color: mediumaquamarine;
+  }
+  
+  .ghost {
+    background-color: black;
+  }
+  
+  .dark {
+    background-color: slategray;
+  }
+  
+  .steel {
+    background-color: steelblue;
+  }
+  
+  .all {
+    background-color: dimgray;
+  }
+
+.statistics {
+    color: rgba(128, 128, 128, 0.9);
+    font-size: 0.9em;
+}
+
+.attribute  {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.12em;
+}
+
+.attribute dt {
+    font-weight: 600;
+}
+
+.attribute:nth-child(n+2) {
+    border-top: 0.06em solid rgba(169, 169, 169, 0.5);
+}
+
+.sidebar {
+    height: 100%;
+    width: 18%;
+    padding-top: 30px;
+    background-color: rgb(244, 244, 244);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
